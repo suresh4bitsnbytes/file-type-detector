@@ -7,16 +7,17 @@
 ### Usage
 ```sh
 const char * checkFileTypeByFile(const char *file)
-```
+
     file - absolute path of the file
     returns filetype if successfully find, else NULL
-    
+```
+
 ```sh    
 const char * checkFileTypeByBuffer(unsigned char *buf, size_t dataLen);
-```
     buf - file buffer
     dataLen - buffer length
     returns filetype if successfully find, else NULL
+```
     
 
 
